@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>opcua_client</name>
+  <version>0.0.1</version>
+  <description>opcua_client</description>
+  <maintainer email="pallavi.koty@gmail.com">PallaviKoty</maintainer>
+  <author email="pallavi.koty@gmail.com">PallaviKoty</author>
+  <license>Apache License 2.0</license>
+  
+  <exec_depend>rclpy</exec_depend>
+
+  <test_depend>rclpy</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>door_translator</name>
+  <version>0.0.0</version>
+  <description>door_translator</description>
+  <maintainer email="pallavi.koty@hopetechinik.com">PallaviKoty</maintainer>
+  <license>Apache License 2.0</license>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <build_depend>rmf_msgs</build_depend>
+  <exec_depend>rmf_msgs</exec_depend>
+
+  <build_depend>opcua_client</build_depend>
+  <exec_depend>opcua_client</exec_depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>ament_pep8</test_depend>
+  <test_depend>ament_pyflakes</test_depend>
+
+  <test_depend>rclpy</test_depend>
+  <test_depend>std_msgs</test_depend>
+  <!-- <test_depend>rmf_msgs</test_depend> -->
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
